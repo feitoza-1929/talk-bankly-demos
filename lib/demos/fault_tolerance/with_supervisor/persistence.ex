@@ -1,4 +1,4 @@
-defmodule Demos.FaultTolerance.Persistence do
+defmodule Demos.FaultTolerance.WithSupervisor.Persistence do
   use Agent
 
   def start_link(initial_value \\ []) do

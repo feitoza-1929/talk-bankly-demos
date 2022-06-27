@@ -1,4 +1,4 @@
-defmodule Demos.FaultTolerance.Supervisor do
+defmodule Demos.FaultTolerance.WithSupervisor.Supervisor do
   use Supervisor
 
   def start_link(args \\ []) do

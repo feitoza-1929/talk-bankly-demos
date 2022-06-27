@@ -1,4 +1,4 @@
-defmodule Demos.FaultTolerance.Counter do
+defmodule Demos.FaultTolerance.WithSupervisor.Counter do
   use GenServer
 
   alias Demos.FaultTolerance.Persistence

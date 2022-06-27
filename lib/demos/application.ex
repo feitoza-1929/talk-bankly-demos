@@ -10,8 +10,7 @@ defmodule Demos.Application do
     children = [
       # Starts a worker by calling: Demos.Worker.start_link(arg)
       # {Demos.Worker, arg}
-      Demos.Communication,
-      Demos.FaultTolerance.Supervisor
+      Demos.Communication
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
